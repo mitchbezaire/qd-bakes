@@ -292,3 +292,56 @@ footer a{
     }
 
 }
+
+.design-intro{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 40px;
+    font-size:1.1rem;
+}
+/* =========================
+   FLAVORS
+========================= */
+
+.flavor-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+
+    max-width:1200px;
+    margin:auto;
+}
+
+.flavor-card{
+    background:white;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s ease;
+}
+
+.flavor-card:hover{
+    transform:translateY(-5px);
+}
+
+.flavor-card h3{
+    color:#4b2818;
+    margin-bottom:20px;
+}
+
+.flavor-card ul{
+    padding-left:20px;
+    line-height:2;
+}
+
+.small-note{
+    margin-top:20px;
+    font-size:.9rem;
+    color:#666;
+    line-height:1.5;
+}
